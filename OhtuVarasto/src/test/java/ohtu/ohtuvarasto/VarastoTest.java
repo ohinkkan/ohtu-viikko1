@@ -92,7 +92,7 @@ public class VarastoTest {
         varasto.lisaaVarastoon(10);
         varasto.otaVarastosta(-12);
         // pitäisi olla täysi
-        assertEquals(0, varasto.paljonkoMahtuu(), vertailuTarkkuus);
+        assertEquals(10, varasto.paljonkoMahtuu(), vertailuTarkkuus);
     }
     
     @Test
