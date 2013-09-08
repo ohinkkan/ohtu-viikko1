@@ -95,6 +95,7 @@ public class VarastoTest {
         assertEquals(0, varasto.paljonkoMahtuu(), vertailuTarkkuus);
     }
     
+    
     @Test
     public void konstr() {
         varasto = new Varasto(-1);
